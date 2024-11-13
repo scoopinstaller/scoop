@@ -1,5 +1,13 @@
 ## [Unreleased](https://github.com/ScoopInstaller/Scoop/compare/master...develop)
 
+### BREAKING CHANGE
+
+- **scoop-install|update**: `-k`option that skipped cache and forced redownload is replaced by `-d`. `-k` now keeps older cache after app update
+
+### Features
+
+- **scoop-cache|update**: New tidy command that removes older packages from cache. Automatically run it after app update ([#6068](https://github.com/ScoopInstaller/Scoop/issues/6068))
+
 ### Bug Fixes
 
 - **scoop-download|install|update:** Fallback to default downloader when aria2 fails ([#4292](https://github.com/ScoopInstaller/Scoop/issues/4292))
