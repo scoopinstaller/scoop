@@ -1,3 +1,9 @@
+## [Unreleased](https://github.com/ScoopInstaller/Scoop/compare/master...develop)
+
+### Features
+
+- **autoupdate**: Add base64 decoding for hash values fetched in json mode ([#6271](https://github.com/ScoopInstaller/Scoop/issues/6271))
+
 ## [v0.5.3](https://github.com/ScoopInstaller/Scoop/compare/v0.5.2...v0.5.3) - 2024-12-31
 
 ### Bug Fixes
